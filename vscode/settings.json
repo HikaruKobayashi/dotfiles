@@ -1,0 +1,17 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "simple-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.exclude": {
+        ".git": true,
+        ".vscode": true,
+        "**/.git": false
+    }
+}
