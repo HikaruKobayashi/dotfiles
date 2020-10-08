@@ -18,3 +18,8 @@ Easily build an environment with dotfiles.
 ### Visual Studio Code
 `$ cd vscode`  
 `$ sh vscode.sh`
+
+### iTerm2
+- Launch iTerm2 and open Preferences.  
+- General > Preferences > Check "Load preferences from a custom folder or URL"  
+- Push "Browse" button and set folder to ~/dotfiles/iTerm2
