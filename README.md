@@ -9,12 +9,12 @@ Easily build an environment with dotfiles.
 |Terminal|iTerm2|
 
 ## How to Set up
-`$ git pull https://github.com/HikaruKobayashi/dotfiles.git`
+`$ git clone https://github.com/HikaruKobayashi/dotfiles.git`
 
 ### fish
-`$ cd dotfiles`
+`$ cd dotfiles`  
 `$ sh setup.sh`
 
 ### Visual Studio Code
-`$ cd vscode`
+`$ cd vscode`  
 `$ sh vscode.sh`
