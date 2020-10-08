@@ -4,11 +4,13 @@ Easily build an environment with dotfiles.
 ## Development environment
 |              |  My Environment  　　|
 |:---:|:---:|
-|OS|Mac OS|
+|OS|MacOS|
 |shell|fish|
 |Terminal|iTerm2|
+|Code Editor|VSCode|
 
 ## How to Set up
+`$ cd ~`  
 `$ git clone https://github.com/HikaruKobayashi/dotfiles.git`
 
 ### fish
