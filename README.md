@@ -7,7 +7,7 @@ Easily build an environment with dotfiles.
 |OS|MacOS|
 |shell|fish|
 |Terminal|iTerm2|
-|Code Editor|VSCode|
+|Code Editor|Visual Studio Code|
 
 ## How to Set up
 `$ cd ~`  
