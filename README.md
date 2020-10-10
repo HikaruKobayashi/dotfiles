@@ -27,5 +27,5 @@ Easily build an environment with dotfiles.
 - Push "Browse" button and set folder to ~/dotfiles/iTerm2
 
 ### Brewfile
-`$ brew tap Homebrew/bundle`
+`$ brew tap Homebrew/bundle`  
 `$ brew bundle --file=Brewfile/Brewfile`
