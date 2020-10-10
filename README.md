@@ -25,3 +25,7 @@ Easily build an environment with dotfiles.
 - Launch iTerm2 and open Preferences.  
 - General > Preferences > Check "Load preferences from a custom folder or URL"  
 - Push "Browse" button and set folder to ~/dotfiles/iTerm2
+
+### Brewfile
+`$ brew tap Homebrew/bundle`
+`$ brew bundle --file=Brewfile/Brewfile`
