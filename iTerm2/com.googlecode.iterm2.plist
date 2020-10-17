@@ -1371,7 +1371,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>CEDCB4C7-E62F-4F21-83AA-C713160A06FA</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>24</integer>
+	<integer>26</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>610780734.43357396</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2132,7 +2132,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-10-07T14:22:44Z</date>
+	<date>2020-10-17T06:25:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>

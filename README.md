@@ -9,6 +9,11 @@ Easily build an environment with dotfiles.
 |Terminal|iTerm2|
 |Code Editor|Visual Studio Code|
 
+## Advance preparation
+`$ brew install fish`
+`$ sudo sh -c 'echo $(which fish) >> /etc/shells'`  
+`$ sh -c 'chsh -s $(which fish)'`  
+
 ## How to Set up
 `$ cd ~`  
 `$ git clone https://github.com/HikaruKobayashi/dotfiles.git`
