@@ -2,6 +2,8 @@
 # Environment Variable
 # -----------------------
 
+set PATH /usr/local/bin /usr/sbin $PATH
+
 # rbenv
 status --is-interactive; and source (rbenv init -|psub)
 set -x OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
