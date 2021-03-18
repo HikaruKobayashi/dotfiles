@@ -1,22 +1,26 @@
-# -----------------------
-# Environment Variable
-# -----------------------
+# ------------------------------------------------------------------------------
+# peco
+# ------------------------------------------------------------------------------
+function fish_user_key_bindings
+  bind \cr peco_select_history
+end
 
-set PATH /usr/local/bin /usr/sbin $PATH
+# ------------------------------------------------------------------------------
+# mkcd
+# ------------------------------------------------------------------------------
+function mkcd
+  if test (count $argv) -eq 0
+    echo "Pass dir name"
+    return 1
+  end
 
-# rbenv
-status --is-interactive; and source (rbenv init -|psub)
-set -x OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
+  set dirname $argv[1]
+  mkdir -p $dirname
+  eval "cd" $dirname
+end
 
-# pyenv
-set -x PATH $HOME/.pyenv $PATH
-eval (pyenv init - | source)
-
-# nodebrew
-set -x PATH $HOME/.nodebrew/current/bin $PATH
-
-# goenv
-set -x GOENV_ROOT $HOME/.goenv
-set -x PATH $GOENV_ROOT/bin $PATH
-eval (goenv init - | source)
-set -x PATH $GOPATH/bin $PATH
+# ------------------------------------------------------------------------------
+# prompt
+# ------------------------------------------------------------------------------
+set -g theme_display_ruby no
+source /usr/local/opt/asdf/asdf.fish

@@ -1,1 +1,0 @@
-ln -fs ~/dotfiles/fish ~/.config
