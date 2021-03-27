@@ -4,3 +4,4 @@ yarn 1.22.10
 golang 1.15
 python 3.9.0
 ruby 2.6.6
+deno 0.42.0
